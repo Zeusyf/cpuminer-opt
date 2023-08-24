@@ -1,7 +1,6 @@
 #!/bin/bash
 
 while :; do
-  ./cpuminer --algo yespower --param-n 2048 --param-r 32 --param-key "LTNCGYES" -o stratum+tcp://pool.crionic.org:4314 -u KGicca56vSEmrm1TVAYotcKgjUcv9NYXfV.fc -p c=CRNC,m=solo ;
+  ./cpuminer --algo yespower --param-n 2048 --param-r 32 --param-key "LTNCGYES" -o stratum+tcp://158.178.141.229:6241 -u KH9nZ5qRUo5xfZv8YNKicNdBTLFV1gTdhL.c -p c=CRNC;
     sleep 5;
 done
-
